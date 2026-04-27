@@ -1,96 +1,77 @@
-![Python](https://img.shields.io/badge/Python-3.9-blue)
-![Status](https://img.shields.io/badge/Project-Completed-green)
-![License](https://img.shields.io/badge/License-MIT-yellow)
-# 🐜 ACO-Based Optimization in Wireless Sensor Networks
+# 🐜 Ant Colony Optimization for Wireless Sensor Networks
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.9-blue?logo=python">
+  <img src="https://img.shields.io/badge/Framework-Streamlit-red?logo=streamlit">
+  <img src="https://img.shields.io/badge/Status-Completed-brightgreen">
+  <img src="https://img.shields.io/badge/Focus-Optimization-orange">
+  <img src="https://img.shields.io/badge/Domain-WSN-purple">
+</p>
+
+<p align="center">
+  <b>🚀 Swarm Intelligence • Energy Optimization • Interactive Simulation</b>
+</p>
+
+---
 
 ## 📌 Overview
 
-This project implements and compares different clustering and optimization techniques for Wireless Sensor Networks (WSN), including:
+This project implements and compares **energy-efficient clustering techniques** in Wireless Sensor Networks (WSN) using:
 
-* LEACH (Low Energy Adaptive Clustering Hierarchy)
-* SEP (Stable Election Protocol)
-* ACO (Ant Colony Optimization)
-* BAT Algorithm
+* 🔹 LEACH (Low Energy Adaptive Clustering Hierarchy)
+* 🔹 SEP (Stable Election Protocol)
+* 🔹 Ant Colony Optimization (ACO)
+* 🔹 Bat Algorithm (BAT)
 
-The goal is to improve energy efficiency, extend network lifetime, and analyze performance differences between these approaches.
-
----
-
-## 🎯 Objectives
-
-* Optimize cluster head selection using ACO and BAT algorithms
-* Compare LEACH and SEP protocols
-* Analyze energy consumption and node lifetime
-* Visualize performance through graphs
+💡 The goal is to **optimize cluster head selection**, minimize energy consumption, and **extend network lifetime**.
 
 ---
 
-## ⚙️ Technologies Used
+## 🧠 Key Idea
 
-* Python
-* Jupyter Notebook
-* NumPy
-* Matplotlib
+Traditional protocols like LEACH and SEP rely on probabilistic selection.
 
----
+👉 This project enhances them using:
 
-## 🧠 Algorithms Used
+* **ACO → intelligent pheromone-based optimization**
+* **BAT → adaptive global search mechanism**
 
-* LEACH Protocol
-* SEP Protocol
-* Ant Colony Optimization (ACO)
-* Bat Algorithm
+⚡ Result: **Improved energy efficiency & longer network survival**
 
 ---
 
-## 📂 Project Structure
+## 🖥️ Live Simulation UI
 
+An interactive simulation built using **Streamlit**.
+
+### ▶️ Run locally:
+
+```bash id="1o0kqg"
+streamlit run app.py
 ```
-aco-optimization/
-│
-├── ACO.ipynb
-├── README.md
-├── requirements.txt
-└── images/
-    ├── leach_vs_sep_analysis.png
-    ├── leach_aco_vs_bat.png
-    ├── sep_aco_vs_bat.png
-    ├── final_analysis.png
-```
+
+### ✨ Features:
+
+* Real-time node visualization
+* Cluster head highlighting
+* Dynamic simulation updates
+* Interactive parameter control
 
 ---
 
-## ▶️ How to Run
-
-1. Install dependencies:
-
-```
-pip install -r requirements.txt
-```
-
-2. Run the notebook:
-
-```
-jupyter notebook
-```
-
-3. Open:
-
-```
-ACO.ipynb
-```
-
----
-
-## 📊 Results
+## 📊 Results & Visualization
 
 ### 🔹 LEACH vs SEP
 
 ![LEACH vs SEP](images/leach_vs_sep_analysis.png)
 
+---
+
 ### 🔹 LEACH-ACO vs LEACH-BAT
 
 ![LEACH ACO vs BAT](images/leach_aco_vs_bat.png)
+
+---
 
 ### 🔹 SEP-ACO vs SEP-BAT
 
@@ -98,21 +79,58 @@ ACO.ipynb
 
 ---
 
-## 📈 Key Observations
+## 📈 Key Insights
 
-* ACO improves cluster head selection efficiency
-* BAT algorithm provides competitive performance
-* SEP outperforms LEACH in network stability
-* Energy consumption is optimized using swarm intelligence
+* ✅ ACO significantly improves cluster head selection
+* ✅ BAT algorithm ensures stable optimization
+* ✅ SEP performs better in heterogeneous environments
+* ✅ Hybrid techniques extend network lifetime
 
 ---
 
-## 🚀 Future Improvements
+## ⚙️ Tech Stack
 
-* Add real-time visualization
-* Convert into web application (Flask/Streamlit)
-* Implement hybrid optimization models
-* Improve scalability for large networks
+* 🐍 Python
+* 📊 NumPy
+* 📉 Matplotlib
+* 🌐 Streamlit
+* 📓 Jupyter Notebook
+
+---
+
+## ▶️ How to Run
+
+```bash id="p2md1q"
+pip install -r requirements.txt
+jupyter notebook
+streamlit run app.py
+```
+
+---
+
+## 📁 Project Structure
+
+```bash id="u3y62g"
+aco-optimization/
+│
+├── ACO.ipynb
+├── app.py
+├── README.md
+├── requirements.txt
+└── images/
+    ├── leach_vs_sep_analysis.png
+    ├── leach_aco_vs_bat.png
+    ├── sep_aco_vs_bat.png
+```
+
+---
+
+## 🚀 Future Scope
+
+* 🔹 Real-time animated ACO paths
+* 🔹 Deploy Streamlit app online
+* 🔹 Hybrid ACO + BAT optimization
+* 🔹 Large-scale WSN simulation
 
 ---
 
@@ -122,6 +140,6 @@ ACO.ipynb
 
 ---
 
-## ⭐ Note
+## ⭐ Support
 
-This project is created for academic and learning purposes in optimization and wireless sensor networks.
+If you like this project, consider giving it a ⭐ on GitHub!
