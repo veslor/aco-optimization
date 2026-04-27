@@ -1,3 +1,6 @@
+![Python](https://img.shields.io/badge/Python-3.9-blue)
+![Status](https://img.shields.io/badge/Project-Completed-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 # 🐜 ACO-Based Optimization in Wireless Sensor Networks
 
 ## 📌 Overview
